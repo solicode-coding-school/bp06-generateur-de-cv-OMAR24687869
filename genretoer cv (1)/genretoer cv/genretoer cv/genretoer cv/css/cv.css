@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(0, 0, 0);
+    position: fixed;
+    z-index: 1000;
+  
+}
+
+header .logo{
+    padding: 10px;
+    text-align: center;
+}
+header .logo a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+   
+}
+
+
+
+#main{
+    padding: 40px 0px 5px 0px;
+    width: 80%;
+    margin-left: 160px;
+}
+
+.form-title{
+    background-color: black;
+    padding: 0.8rem 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.form-title h3{
+    color: white;
+    font-weight: 500;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.7rem;
+}
+.form-all{
+    margin: 3rem 0;
+}
+.cv{
+    padding: 3rem 2rem 0 2rem;
+    border: 3px solid rgba(0, 0, 0, 0.08);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.formX{
+    margin-bottom: 3rem;
+    position: relative;
+}
+.form-label{
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+.form-cv-g{
+    border-radius: none;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    padding: 0.8rem 1.6rem;
+    width: 100%;
+    outline: 0;
+   
+}
+
+.error-text{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    letter-spacing: 0.5px;
+    top: calc(100% + 2px);
+    left: 0;
+    width: 100%;
+}
+
+.btn-add{
+    width: 80%;
+    height: 35px;
+    background-color: black;
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.x-btn{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color:white;
+    color:black;
+    font-size: 16px;
+    z-index: 999;
+}
+
+
+
+.prntCv{
+    margin-top: 100px;
+    background-color: red;
+    min-height: 900px;
+    width: 80%;
+    margin-left:160px ;
+    margin-right:100px ;
+    margin-bottom: 50px;
+    display: flex;
+    
+}
+.part1{
+    width: 40%;
+    background-color: rgb(17, 255, 0);
+}
+.photofile{
+    width: 210px;
+    height: 210px;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    margin:50px 20px 30px  140px ;
+}
+.part1 h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+.part1 p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    max-width: 100%;
+}
+.part1 h2{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+.part1 span{
+    display: block;
+    margin-left: 25px;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 90%;
+}
+.part2{
+    width: 60%;
+}
+.part2 h1{
+    margin-left: 70px;
+    margin-top: 60px;
+    padding: 7px 7px 15px 7px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    
+    width: 80%;
+}
+
+    
+.part2 p{
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 75%;
+    
+}
+
+.dowlode{
+    margin: 30px 0px 70px 100px ;
+    font-size: 20px;
+    background-color: rgb(72, 72, 223);
+    padding: 5px 10px;
+    border-radius: 8px;
+
+}
+

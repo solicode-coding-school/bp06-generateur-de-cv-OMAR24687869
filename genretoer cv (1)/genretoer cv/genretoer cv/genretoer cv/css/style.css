@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    z-index: 999;
+}
+
+header .logo{
+    padding: 10px;
+    margin-left: 15px;
+}
+header .logo a{
+    color: rgb(97, 97, 221);
+    text-decoration: none;
+    font-size: 30px;
+}
+header .nav1 a{
+    margin: 0px 30px 0px 30px;
+    padding: 20Px;
+    text-decoration: none;
+    font-size: 17px;
+}
+header .nav1 a{
+    color: black;
+    font-size: 16px;
+}
+header .nav2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+header .crete {
+    text-align: center;
+    background-color: rgb(242, 166, 166);
+    width: 130px;
+    height: 40px;
+    border-radius: 7px;
+   padding-top: 10px;
+   margin-right: 50px;
+}
+header .login {
+    text-align: center;
+    background-color: rgb(92, 198, 233);
+    width: 130px;
+    border-radius: 7px;
+    height: 40px;
+   padding-top: 10px;
+   margin-right: 50px;
+}
+header .login a{
+    color: rgb(39, 39, 223);
+}
+header .crete a{
+    color: rgb(238, 36, 39);
+}
+header .nav2 a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.contener {
+    padding-top: 90px; 
+    background-color: rgb(169, 208, 164);
+    width: 100%;
+    height: 782px; 
+    display: flex;
+    
+}
+
+.text{
+    width: 600px;
+    height: 600px;
+    margin: 100px 49px 20px 190px;
+}
+.text h2{
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.text p{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 140px;
+    line-height: 2;
+}
+.text button{
+    display: block;
+    margin-left: 180px;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 8px;
+    background-color: rgb(124, 108, 139);
+    transition: 1.8s ease;
+}
+.text button:hover{
+    background-color: bisque;
+    padding: 16px 22px;
+}
+.text a{
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    margin-left: 215px;
+}
+
+.photocv{
+    width: 600Px;
+    height: 600px;
+    margin: 80px 49px 20px 190px;
+    position: relative;
+}
+.photocv img{
+    width: 240px;
+    height: 300px;
+}
+.img1{
+    position: absolute;
+    top: 50px;
+    margin-right: 160px;
+}
+.img2{
+    position: absolute;
+    
+    margin-left: 250px;
+}
+.img3{
+    position: absolute;
+    margin-left: 50px;
+    top: 180px;
+}
+.tetelcv{
+    height: 1500px;
+    background-color: black;
+}
+.tetelcv h1{
+text-align: center;
+padding: 60px;
+font-size: 25px;
+color: #ffffff;
+padding-bottom: 40px;
+}
+.cv{
+   
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0px 100px 20px 180px  ;
+}
+.cv img{
+    width: 280px;
+    height: 340;
+    margin: 30px 30px 30px 0px;
+}
+.foter{
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.foter p{
+    color: #000000;
+    margin: 20px;
+}

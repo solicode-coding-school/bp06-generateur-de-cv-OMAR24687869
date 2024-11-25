@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE MY CV</title>
+    <link rel="stylesheet" href="css/cv.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Mycv</a>
+        </div>
+    </header>
+    <section id = "main" class = "">
+        <div class = "container">
+            <div class = "about-cnt">
+                <form action="" class="cv-form" id = "cv-form">
+                    <div class = "form-all">
+                        <div class = "form-title">
+                            <h3>about section</h3>
+                        </div>
+                        <div class = "cv about">
+                            <div class = "cols-3">
+                                <div class = "formX">
+                                    <label for = "" class = "form-label">First Name</label>
+                                    <input name = "firstname" type = "text" class = " form-cv-g firstname" id ="firstname"  placeholder="First Name">
+                                    <span class="error-text"></span>
+                                </div>
+                                
+                                <div class = "formX">
+                                    <label for = "" class = "form-label">Last Name</label>
+                                    <input name = "lastname" type = "text" class = " form-cv-g lastname" id ="lastname"  placeholder="Last Name">
+                                    <span class="error-text"></span>
+                                </div>
+                            </div>
+
+                            <div class="cols-3">
+                                <div class = "formX">
+                                    <label for = "" class = "form-label">Your Image</label>
+                                    <input name = "image" type = "file" class = " form-cv-g image" id ="image" accept = "image/*" >
+                                </div>
+                                <div class = "formX">
+                                    <label for = "" class = "form-label">Designation</label>
+                                    <input name = "designation" type = "text" class = " form-cv-g designation" id ="designation"  placeholder="Designation">
+                                    <span class="error-text"></span>
+                                </div>
+                                <div class = "formX">
+                                    <label for = "" class = "form-label">Address</label>
+                                    <input name = "address" type = "text" class = " form-cv-g address" id ="address" placeholder="Address">
+                                    <span class="error-text"></span>
+                                </div>
+                            </div>
+
+                            <div class = "cols-3">
+                                <div class = "formX">
+                                    <label for = "" class = "form-label">Email</label>
+                                    <input name = "email" type = "text" class = " form-cv-g email" id ="email"  placeholder="hasanmtir9a@gmail.com">
+                                    <span class="error-text"></span>
+                                </div>
+                                <div class = "formX">
+                                    <label for = "" class = "form-label">Phone No:</label>
+                                    <input name = "phoneno" type = "text" class = " form-cv-g phoneno" id ="phoneno"  placeholder="068795437215">
+                                    <span class="error-text"></span>
+                                </div>
+                                <div class = "formX">
+                                    <label for = "" class = "form-label">Summary</label>
+                                    <input name = "summary" type = "text" class = " form-cv-g summary" id ="summary"  placeholder="i dont now">
+                                    <span class="error-text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-all">
+                        <div class = "form-title">
+                            <h3>achievements</h3>
+                        </div>
+
+                        <div class = "boexs">
+                            <div class = " cv repeater" data-repeater-list = "group-a">
+                                <div data-repeater-item>
+                                    <div class = "achievement">
+                                        <div class = "cols-2">
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Title</label>
+                                                <input name = "achieve_title" type = "text" class = " form-cv-g achieve_title"  class=""   placeholder="..............">
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Description</label>
+                                                <input name = "achieve_description" type = "text" class = " form-cv-g achieve_description"  class=""   placeholder=".............">
+                                                <span class="error-text"></span>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <button type = "button"   id="btn1" class = "btn-add">add</button>
+                        </div>
+                    </div>
+
+                    <div class="form-all">
+                        <div class = "form-title">
+                            <h3>experience</h3>
+                        </div>
+
+                        <div class = "boexs">
+                            <div class = " cv repeater" data-repeater-list = "group-b">
+                                <div data-repeater-item>
+                                    <div class = "experience">
+                                        <div class = "cols-3">
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Title</label>
+                                                <input name = "exp_title" type = "text" class = " form-cv-g title"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Company / Organization</label>
+                                                <input name = "exp_organization" type = "text" class = " form-cv-g organization"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Location</label>
+                                                <input name = "exp_location" type = "text" class = " form-cv-g location"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class = "cols-3">
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Start Date</label>
+                                                <input name = "exp_start_date" type = "date" class = " form-cv-g start-date"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">End Date</label>
+                                                <input name = "exp_end_date" type = "date" class = " form-cv-g end-date"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Description</label>
+                                                <input name = "exp_description" type = "text" class = " form-cv-g ex-description"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                        </div>
+
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <button type = "button"  id="btn2" class = "btn-add">add</button>
+                        </div>
+                    </div>
+
+                    <div class="form-all">
+                        <div class = "form-title">
+                            <h3>education</h3>
+                        </div>
+
+                        <div class = "boexs">
+                            <div class = "repeater" data-repeater-list = "group-c">
+                                <div data-repeater-item>
+                                    <div class = " cv school">
+                                        <div class = "cols-3">
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">School</label>
+                                                <input name = "edu_school" type = "text" class = " form-cv-g edu-school"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Degree</label>
+                                                <input name = "edu_degree" type = "text" class = " form-cv-g edu-degree"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">City</label>
+                                                <input name = "edu_city" type = "text" class = " form-cv-g edu-city"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class = "cols-3">
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Start Date</label>
+                                                <input name = "edu_start_date" type = "date" class = " form-cv-g edu-start-d"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">End Date</label>
+                                                <input name = "edu_graduation_date" type = "date" class = " form-cv-g edu-graduation-d"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Description</label>
+                                                <input name = "edu_description" type = "text" class = " form-cv-g edu-description"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type = "button"    id="btn3" class = "btn-add">add</button>
+                        </div>
+                    </div>
+
+                    <div class="form-all">
+                        <div class = "form-title">
+                            <h3>projects</h3>
+                        </div>
+
+                        <div class = "boexs">
+                            <div class = "repeater" data-repeater-list = "group-d">
+                                <div data-repeater-item>
+                                    <div class = " cv project">
+                                        <div class = "cols-3">
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Project Name</label>
+                                                <input name = "proj_title" type = "text" class = " form-cv-g proj-title"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Project link</label>
+                                                <input name = "proj_link" type = "text" class = " form-cv-g proj-link"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                            <div class = "formX">
+                                                <label for = "" class = "form-label">Description</label>
+                                                <input name = "proj_description" type = "text" class = " form-cv-g proj-description"  class=""  >
+                                                <span class="error-text"></span>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <button type = "button"   id="btn4" class = "btn-add">add</button>
+                        </div>
+                    </div>
+
+                    <div class="form-all">
+                        <div class = "form-title">
+                            <h3>skills</h3>
+                        </div>
+
+                        <div class = "boexs">
+                            <div class = "repeater" data-repeater-list = "group-e">
+                                <div data-repeater-item>
+                                    <div class = "cv skills">
+                                        <div class = "formX">
+                                            <label for = "" class = "form-label">Skill</label>
+                                            <input name = "skill" type = "text" class = " form-cv-g skill"  class=""  >
+                                            <span class="error-text"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type = "button"   id="btn5" class = "btn-add">add</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+        
+    
+    <section>
+        <button type = "button"   id="sbmit" class = "btn-add">make your cv</button>
+    </section>
+       
+<section>
+    <div class="prntCv">
+            <div class="part1">
+                <div class="about">
+                <img src="" alt="" srcset="" class="photofile">
+                <h1 class="i1"></h1>
+                <p class="i2"></p>
+                <h2>ABOUT</h2>
+                <span class="i3"></span>
+                <span class="i4"></span>
+                <span class="i5"></span>
+                <span class="i6"></span>
+               
+            </div>
+            <div class="skil">
+                <h2>SKILLS</h2>
+                <div class="sil">
+                <span class="skil1"> </span>
+            </div>
+            </div>
+               
+              
+            </div>
+            <div class="part2">
+
+                <h1>Achievements</h1>
+                <div class="Achievementspx">
+                    <p class="title-ach"></p>
+                    <p class="designation-ach"></p>
+                  
+                </div>
+                <h1>experiencep</h1>
+                <div class="experiencep">
+                    <p class="title-exp"></p>
+                    <p class="com-exp"></p>
+                    <p class="designation-exp"></p>
+                   
+                </div>
+                <h1>education</h1>
+                <div class="educationp">
+                    <p class="school-p"></p>
+                    <p class="dgri"></p>
+                    <p class="city-stard-edn"></p>
+                    <p class="designation-school"></p>
+                    
+                 
+                </div>
+                <h1>projects</h1>
+                <div class="proj-cv">
+                    <p class="proj-title-cv"></p>
+                    <p class="proj-link-cv"></p>
+                    <p class="proj-description-cv"></p>
+                    
+                </div>
+                   
+                    
+           
+            </div>
+        
+    </div>
+</section>
+
+<button class="dowlode">dowlode</button>
+   <script src="js/cv.js"></script>
+</body>
+</html>
